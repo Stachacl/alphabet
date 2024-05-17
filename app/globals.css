@@ -1,6 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
+h1 {
+  font-family: 'Poetsen One', sans-serif;
+  /* font color: rainbow gradient */
+  color: violet;
+}
+
+.rainbow-gradient {
+  background: linear-gradient(90deg, #fd3077,  #7d20ff, #8000ff, #e238c6, #ff0080);
+
+}
 
 .game-backdrop {
   position: fixed;

@@ -20,10 +20,10 @@ const Buttons: React.FC = () => {
   return (
     <div>
       <button
-        className="bg-blue-500 text-white px-4 py-2 rounded"
+        className="rainbow-gradient text-white px-4 py-2 rounded"
         onClick={startGame}
       >
-        Start Game
+        Start
       </button>
       {options.map((letter) => (
         <button
